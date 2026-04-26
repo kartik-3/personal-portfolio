@@ -152,12 +152,12 @@ projects:
       period: "May 2023 – Present"
       tags: [Python, NLP, Rasa, BlenderBot, ASR, Flask]
       desc: >
-        Pursuing research in the field of Natural Language Processing (NLP) and
+        Pursued research in the field of Natural Language Processing (NLP) and
         conversational AI on the NSF-funded DART project. Led design and development
         of a chatbot leveraging Rasa to combat misinformation. Integrated BlenderBot
         for chitchat and digressions, and added Automatic Speech Recognition
         functionality.
-      github_url: null
+      github_url: "https://github.com/kartik-3/chatbot_rasa"
     - title: "Analyzing Fake Job Postings"
       period: "Feb 2022 – May 2022"
       tags: [Python, "Machine Learning", "Data Analysis", "Vue.js", Flask]
@@ -166,7 +166,7 @@ projects:
         Regression. Cleaned and performed exploratory data analysis on 250,000 job
         postings. Built with Vue.js and Apex Charts for interactive visualizations,
         Python and Flask on the backend.
-      github_url: null
+      github_url: "https://github.com/kartik-3/fake-job-analysis"
     - title: "Multi-topic IR Chatbot"
       period: "Sep 2022 – Dec 2022"
       tags: [Solr, Python, Pandas, "Vue.js", Flask, Vuetify]
@@ -175,7 +175,7 @@ projects:
         based on user queries across selected topics. Extracted Reddit data via
         Pushshift API, indexed in Solr with BM25 ranking. Feature-rich UI built
         with Vue.js and Vuetify.
-      github_url: null
+      github_url: "https://github.com/kartik-3/chatbot"
 
 contact:
   eyebrow: "Contact — 05"
