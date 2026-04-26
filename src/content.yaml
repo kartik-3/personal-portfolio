@@ -58,7 +58,7 @@ about:
       Before that, I built an NLP-driven conversational system for ALS users at
       the Research Foundation of SUNY, contributed to NSF-funded misinformation
       research, and worked on secure web-isolation tooling at Authentic8. Earlier
-      in my career at Incedo I shipped network planning software and embedded
+      in my career at Incedo I shipped a network planning software as well as embedded
       firmware for industrial routers.
     - >
       I care about systems that hold up under load, code that's pleasant to
@@ -132,8 +132,53 @@ experience:
         - "Implemented Jest and Spectron testing frameworks achieving 70% code coverage."
         - "Developed embedded software in C for industrial switches and routers, supporting OPC UA, SNMP, DHCP, and TCP/IP."
 
+projects:
+  eyebrow: "Projects — 04"
+  lede: >
+    Side projects, research, and tools I've built outside of work.
+  github_url: "https://github.com/kartik-3"
+  items:
+    - title: "Claude Job Bot"
+      period: "2025"
+      tags: [Python, "Claude API", React, Django, Playwright]
+      desc: >
+        Automated job application bot that discovers roles from target companies,
+        evaluates them against your resume using Claude, tailors application materials,
+        and auto-applies where possible. Supports Greenhouse, Lever, Ashby, Workday,
+        Amazon, and Oracle HCM. Includes a local React + Django dashboard for
+        filtering and managing applications.
+      github_url: "https://github.com/kartik-3/claude-job-bot"
+    - title: "NSF DART — Misinformation Chatbot"
+      period: "May 2023 – Present"
+      tags: [Python, NLP, Rasa, BlenderBot, ASR, Flask]
+      desc: >
+        Pursuing research in the field of Natural Language Processing (NLP) and
+        conversational AI on the NSF-funded DART project. Led design and development
+        of a chatbot leveraging Rasa to combat misinformation. Integrated BlenderBot
+        for chitchat and digressions, and added Automatic Speech Recognition
+        functionality.
+      github_url: null
+    - title: "Analyzing Fake Job Postings"
+      period: "Feb 2022 – May 2022"
+      tags: [Python, "Machine Learning", "Data Analysis", "Vue.js", Flask]
+      desc: >
+        Web application to classify job postings as real or fake using Logistic
+        Regression. Cleaned and performed exploratory data analysis on 250,000 job
+        postings. Built with Vue.js and Apex Charts for interactive visualizations,
+        Python and Flask on the backend.
+      github_url: null
+    - title: "Multi-topic IR Chatbot"
+      period: "Sep 2022 – Dec 2022"
+      tags: [Solr, Python, Pandas, "Vue.js", Flask, Vuetify]
+      desc: >
+        End-to-end information retrieval chatbot capable of holding conversations
+        based on user queries across selected topics. Extracted Reddit data via
+        Pushshift API, indexed in Solr with BM25 ranking. Feature-rich UI built
+        with Vue.js and Vuetify.
+      github_url: null
+
 contact:
-  eyebrow: "Contact — 04"
+  eyebrow: "Contact — 05"
   lede: >
     Open to interesting conversations — about backend systems,
     financial infrastructure, NLP applications, or unusual side projects.

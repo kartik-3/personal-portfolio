@@ -34,7 +34,8 @@ export default function Nav() {
     { to: '/', label: 'Home', num: '01' },
     { to: '/about', label: 'About', num: '02' },
     { to: '/work', label: 'Work', num: '03' },
-    { to: '/contact', label: 'Contact', num: '04' }
+    { to: '/projects', label: 'Projects', num: '04' },
+    { to: '/contact', label: 'Contact', num: '05' }
   ]
 
   return (
