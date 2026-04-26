@@ -18,7 +18,7 @@ export default function Nav() {
   useEffect(() => {
     const update = () => {
       const now = new Date().toLocaleTimeString('en-US', {
-        timeZone: 'America/Chicago',
+        timeZone: 'Asia/Kolkata',
         hour: '2-digit',
         minute: '2-digit',
         hour12: false
@@ -71,7 +71,7 @@ export default function Nav() {
 
         <div className="nav-meta mono">
           <span className="dot" />
-          <span>{time} CT</span>
+          <span>{time} IST</span>
         </div>
       </div>
 

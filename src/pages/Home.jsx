@@ -198,7 +198,7 @@ export default function Home() {
         }
 
         /* Selected */
-        .selected { padding: 8rem 0 2rem; }
+        .selected { padding-top: 8rem; padding-bottom: 2rem; }
         .selected-head {
           display: flex;
           flex-direction: column;
