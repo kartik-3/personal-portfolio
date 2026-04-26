@@ -1,0 +1,162 @@
+meta:
+  name: "Kartik Sehgal"
+  role: "Software Engineer"
+  role_short: "SDE"
+  location: "Hyderabad, India"
+  timezone: "IST"
+  email: "kartiksehgal3@gmail.com"
+  github_url: "https://github.com/kartik-3"
+  github_handle: "kartik-3"
+  linkedin_url: "https://linkedin.com/in/sehgal-kartik"
+  linkedin_handle: "sehgal-kartik"
+
+home:
+  eyebrow: "Portfolio — 2026 Edition"
+  hero_lede: >
+    Six years of shipping production software — from enterprise financial
+    platforms to NLP-driven conversational systems. Currently at Goldman Sachs.
+  marquee_skills:
+    - Java
+    - Python
+    - AWS
+    - Spark
+    - Snowflake
+    - React
+    - Vue.js
+    - System Design
+    - NLP
+  selected_eyebrow: "Selected Work — 03"
+  selected_heading: "Things I've shipped recently."
+  selected_projects:
+    - num: "01"
+      title: "Financial ETL Platform"
+      org: "Goldman Sachs"
+      tags: [Java, "AWS Glue", Snowflake, Spark]
+      desc: "End-to-end ETL aggregating attributes, P&L, and balances across 5+ upstream systems — millions of records, optimized throughput."
+    - num: "02"
+      title: "General Ledger Validation"
+      org: "Goldman Sachs"
+      tags: ["Spring Boot", REST, SQL]
+      desc: "Strengthened financial controls and auditing — reduced manual adjustment verification by 30–40%."
+    - num: "03"
+      title: "ALS Conversational System"
+      org: "RF SUNY"
+      tags: [Python, NLP, Rasa, Flask]
+      desc: "Near-real-time communication for ALS users — improved response time ~50% via fine-tuned neural language models."
+
+about:
+  eyebrow: "About — 02"
+  bio_lede: >
+    I'm a software engineer with 6+ years of experience delivering
+    high-performance backend systems, ETL workflows, and modern web applications.
+  bio_paragraphs:
+    - >
+      At Goldman Sachs in Dallas, I architect enterprise financial platforms —
+      building ETL systems on AWS Glue, optimizing Spark workloads against
+      Snowflake, and owning production reliability for 30+ business-critical reports.
+    - >
+      Before that, I built an NLP-driven conversational system for ALS users at
+      the Research Foundation of SUNY, contributed to NSF-funded misinformation
+      research, and worked on secure web-isolation tooling at Authentic8. Earlier
+      in my career at Incedo I shipped network planning software and embedded
+      firmware for industrial routers.
+    - >
+      I care about systems that hold up under load, code that's pleasant to
+      maintain, and interfaces that respect the people using them.
+  location: "Dallas, Texas"
+  currently: "Software Engineer Associate, Goldman Sachs"
+  education:
+    - degree: "M.S. Computer Science"
+      school: "SUNY Buffalo"
+      gpa: "3.9"
+    - degree: "B.Tech Information Technology"
+      school: "GGSIPU"
+      gpa: "3.6"
+  recognition: "Extra Miles Award · Innovation & Customer Excellence · GHC Scholarship"
+  skills:
+    - label: "Languages"
+      items: [Java, Python, SQL, JavaScript, TypeScript, C]
+    - label: "Backend & Data"
+      items: ["Spring Boot", Spark, Snowflake, AWS, "Node.js", Flask, Pandas]
+    - label: "Frontend"
+      items: ["React.js", "Vue.js", "HTML / CSS", "REST APIs", Electron]
+    - label: "Practice"
+      items: ["System Design", NLP, "Prompt Engineering", Agile, "Claude Code"]
+
+experience:
+  eyebrow: "Experience — 03"
+  lede: >
+    A chronological record of where I've worked, what I built, and the
+    problems I helped solve.
+  jobs:
+    - company: "Goldman Sachs"
+      role: "Software Engineer Associate"
+      period: "May 2024 — Present"
+      location: "Dallas, Texas"
+      stack: [Java, AWS, Spark, Snowflake, "Spring Boot", Tableau]
+      bullets:
+        - "Architected an end-to-end ETL system in Java on AWS Glue, aggregating attributes, positions, P&L, and balances across 5+ upstream systems."
+        - "Processed millions of records in Snowflake with Spark performance optimizations to maximize throughput and efficiency."
+        - "Designed standardized transformation and reconciliation layers, improving data accuracy and downstream reporting reliability by 20–30%."
+        - "Built custom Snowflake UDTFs to streamline multi-system ingestion, reducing upstream integration effort by 30–40%."
+        - "Led delivery of a general ledger validation platform — strengthening financial controls, auditing, and regulatory compliance."
+        - "Built scalable REST APIs in Spring Boot with 80% unit test coverage, ensuring reliability for high-volume workflows."
+        - "Owned production reliability for 30+ complex financial reports, performing root-cause analysis and consistently meeting strict SLAs."
+    - company: "Research Foundation of SUNY"
+      role: "Research Software Engineer"
+      period: "May 2023 — May 2024"
+      location: "Buffalo, New York"
+      stack: [Python, NLP, Rasa, AWS, Flask, "Vue.js"]
+      bullets:
+        - "Led development of an NLP-based conversational system for ALS users, improving near-real-time communication by ~50%."
+        - "Integrated Text-to-Speech, Speech-to-Text, and fine-tuned neural language models for natural interaction."
+        - "Contributed to NSF-funded DART project combating misinformation — designed and developed a Rasa-based chatbot."
+        - "Built a Flask + Vue.js application on AWS (EC2/S3) integrating Blender Bot for chitchat and ASR functionality."
+    - company: "Authentic8 Inc."
+      role: "Software Engineer Intern"
+      period: "Jun 2023 — Dec 2023"
+      location: "Buffalo, New York"
+      stack: ["Vue.js", Vuex, JavaScript, CSS, Linux, Git]
+      bullets:
+        - "Enhanced Silo, a secure web-isolation browser, improving usability and component reusability."
+        - "Developed a Certificate Authority-in-Jail feature, enabling seamless org-level certificate management."
+        - "Built 5+ reusable Vue.js components and revamped 2 browser extensions with updated designs."
+    - company: "Incedo Inc."
+      role: "Senior Software Engineer"
+      period: "Jul 2019 — Jul 2022"
+      location: "Gurgaon, Haryana"
+      stack: ["Vue.js", TypeScript, "Node.js", Jest, C, Electron]
+      bullets:
+        - "Designed and built a Network Planning Tool with Vue.js, TypeScript, and REST — creating complex UI components."
+        - "Built 10+ Node.js backend APIs and packaged the app as a desktop application with Electron.js."
+        - "Implemented Jest and Spectron testing frameworks achieving 70% code coverage."
+        - "Developed embedded software in C for industrial switches and routers, supporting OPC UA, SNMP, DHCP, and TCP/IP."
+
+contact:
+  eyebrow: "Contact — 04"
+  lede: >
+    Open to interesting conversations — about backend systems,
+    financial infrastructure, NLP applications, or unusual side projects.
+    The fastest way to reach me is email.
+  response_time: "usually within 24h"
+  channels:
+    - label: "Email"
+      icon: "Mail"
+      value: "kartiksehgal3@gmail.com"
+      href: "mailto:kartiksehgal3@gmail.com"
+    - label: "LinkedIn"
+      icon: "Linkedin"
+      value: "sehgal-kartik"
+      href: "https://linkedin.com/in/sehgal-kartik"
+    - label: "GitHub"
+      icon: "Github"
+      value: "kartik-3"
+      href: "https://github.com/kartik-3"
+    - label: "Location"
+      icon: "MapPin"
+      value: "Hyderabad, Ind"
+      href: null
+
+footer:
+  currently: "Building enterprise financial platforms at Goldman Sachs in Dallas, Texas."
+  built_by: "Designed & built with care"
