@@ -17,6 +17,19 @@
     </script>
     <title>Kartik Sehgal — Software Engineer</title>
     <meta name="description" content="Software Engineer with 6+ years of experience in backend systems, ETL workflows, and modern web applications." />
+    <!-- Restore path after GitHub Pages 404 redirect -->
+    <script>
+      (function(l) {
+        if (l.search[1] === '/') {
+          var decoded = l.search.slice(1).split('&').map(function(s) {
+            return s.replace(/~and~/g, '&');
+          }).join('?');
+          window.history.replaceState(null, null,
+            l.pathname.slice(0, -1) + decoded + l.hash
+          );
+        }
+      }(window.location));
+    </script>
   </head>
   <body>
     <div id="root"></div>
